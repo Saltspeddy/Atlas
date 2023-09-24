@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import About from "./About";
 import Sponsors from "./Sponsors";
+import Contact from "./Contact";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Sponsors></Sponsors>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );

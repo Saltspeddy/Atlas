@@ -10,6 +10,8 @@ export default {
         subrayada:"'Montserrat Subrayada', sans-serif",
         rammetto:"'Rammetto One', cursive",
         roboto:"'Roboto', sans-serif",
+        rubik:"'Rubik', sans-serif",
+        kanit:"'Kanit', sans-serif"
       }
     },
   },

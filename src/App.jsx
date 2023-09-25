@@ -5,15 +5,20 @@ import Footer from "./Footer";
 import About from "./About";
 import Sponsors from "./Sponsors";
 import Contact from "./Contact";
+import { useState, useEffect } from "react";
+
 function App() {
   return (
     <>
-      <Nav></Nav>
-      <Home></Home>
-      <About></About>
-      <Sponsors></Sponsors>
-      <Contact></Contact>
-      <Footer></Footer>
+      <div>
+        <Nav></Nav>
+        <Home></Home>
+        <About></About>
+        <Contact></Contact>
+
+        <Sponsors></Sponsors>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
